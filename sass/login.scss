@@ -1,0 +1,82 @@
+@import 'public';
+.loginwrap{
+    width: 350px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: 200px;
+    top: 50%;
+    margin-top: -200px;
+    
+}
+body,html{
+    background: white;
+}
+.headerwrap{
+    width: 100%;
+    background: white;
+}
+.header{
+    width: 1190px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 22px 0px;
+   h1{
+       float: left;
+   }
+}
+.mainwrap{
+    height: 600px;
+    background: rgb(117, 94, 57);
+    .main{
+        margin: 0 auto;
+        width: 1190px;
+        height: 600px;
+        background: url('../otherimg/login_bg.jpg') no-repeat center center;
+        position: relative;
+        #iframe{
+            position: absolute;
+            right: 60px;   
+            top: 90px;
+            background: white;
+        }
+    }
+}
+
+
+.footerwrap{
+    margin-top: 30px;
+    min-height: 177px;
+    _height:177px;
+    .footer{
+        width: 1190px;
+        margin: 0 auto;
+        p{
+            line-height: 25px;
+            padding: 5px 0px;
+            a{
+                margin-right: 3px;
+                color: #000;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        div{
+            line-height: 25px;
+            color: #666666;
+        }
+        a{
+            img{
+                display: inline-block;
+            }
+            color: #999;
+          margin-right: 65px;  
+        }
+    }
+}
+
+.end{
+    height: 16px;
+}

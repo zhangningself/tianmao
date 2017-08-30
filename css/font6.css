@@ -1,0 +1,16 @@
+@font-face {
+	font-family: tm-detail-font;
+	src: url(../font/font_1466512683_907586.eot);
+	src: url(../font/font_1466512683_907586.eot?#iefix) format('embedded-opentype'), url(../font/font_1466512683_907586.woff) format('woff'), url(../font/font_1466512683_907586.ttf) format('truetype'), url(../font/font_1466512683_907586.svg#tm-detail-font) format('svg')
+}
+.mui-amount-increase,.mui-amount-decrease {
+	width: 16px;
+	height: 12px;
+	overflow: hidden;
+	border: 1px solid #a7a6ab;
+	display: block;
+	font-family: tm-detail-font;
+	line-height: 12px;
+	font-size: 16px;
+	cursor: pointer
+}

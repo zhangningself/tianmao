@@ -1,0 +1,14 @@
+@font-face {
+	font-family: alicare-dialog-iconfont;
+	src: url("../font/font_1471933726_7338545.eot");
+	src: url("../font/font_1471933726_7338545.eot?#iefix") format("embedded-opentype"), url("../font/font_1471933726_7338545.woff") format("woff"), url("../font/font_1471933726_7338545.ttf") format("truetype"), url("../font/font_1471933726_7338545.svg#iconfont") format("svg")
+}
+
+.alicare-dialog-iconfont {
+	font-family: alicare-dialog-iconfont;
+	font-size: 30px;
+	color: #f7931e!important;
+	font-style: normal;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased
+}

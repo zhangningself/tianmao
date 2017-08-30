@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif; }
+
+em, i {
+  font-style: normal; }
+
+body {
+  background: #f5f5f5; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: none; }
+
+button {
+  border: none; }
+
+.clear {
+  clear: both;
+  display: block;
+  content: "\20"; }
+
+.content {
+  width: 1230px;
+  min-height: 30px; }
+  .content li {
+    float: left; }
+  .content li:nth-of-type(1) {
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 20px;
+    color: #000; }
+  .content li:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #000; }
+  .content ul {
+    float: right; }
+    .content ul li {
+      float: left; }
+      .content ul li a {
+        margin: 5px 10px;
+        display: block;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        color: black; }
+      .content ul li a:hover {
+        border-bottom: 1px solid #000; }
+
+.content2 {
+  width: 1230px;
+  min-height: 440px; }
+  .content2 .left {
+    float: left;
+    width: 246px;
+    height: 440px; }
+  .content2 .middle {
+    float: left;
+    width: 735px;
+    height: 440px; }
+  .content2 .right {
+    float: left;
+    width: 248px;
+    height: 440px; }
+
+.loginwrap {
+  width: 350px;
+  height: 450px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  margin-left: 200px;
+  top: 50%;
+  margin-top: -200px; }
+
+body, html {
+  background: white; }
+
+.headerwrap {
+  width: 100%;
+  background: white; }
+
+.header {
+  width: 1190px;
+  height: 44px;
+  margin: 0 auto;
+  padding: 22px 0px; }
+  .header h1 {
+    float: left; }
+
+.mainwrap {
+  height: 600px;
+  background: #755e39; }
+  .mainwrap .main {
+    margin: 0 auto;
+    width: 1190px;
+    height: 600px;
+    background: url("../otherimg/login_bg.jpg") no-repeat center center;
+    position: relative; }
+    .mainwrap .main #iframe {
+      position: absolute;
+      right: 60px;
+      top: 90px;
+      background: white; }
+
+.footerwrap {
+  margin-top: 30px;
+  min-height: 177px;
+  _height: 177px; }
+  .footerwrap .footer {
+    width: 1190px;
+    margin: 0 auto; }
+    .footerwrap .footer p {
+      line-height: 25px;
+      padding: 5px 0px; }
+      .footerwrap .footer p a {
+        margin-right: 3px;
+        color: #000; }
+      .footerwrap .footer p a:hover {
+        text-decoration: underline; }
+    .footerwrap .footer div {
+      line-height: 25px;
+      color: #666666; }
+    .footerwrap .footer a {
+      color: #999;
+      margin-right: 65px; }
+      .footerwrap .footer a img {
+        display: inline-block; }
+
+.end {
+  height: 16px; }
+
+/*# sourceMappingURL=login.css.map */

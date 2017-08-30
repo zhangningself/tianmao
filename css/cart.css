@@ -1,0 +1,614 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif; }
+
+em, i {
+  font-style: normal; }
+
+body {
+  background: #f5f5f5; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: none; }
+
+button {
+  border: none; }
+
+.clear {
+  clear: both;
+  display: block;
+  content: "\20"; }
+
+.content {
+  width: 1230px;
+  min-height: 30px; }
+  .content li {
+    float: left; }
+  .content li:nth-of-type(1) {
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 20px;
+    color: #000; }
+  .content li:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #000; }
+  .content ul {
+    float: right; }
+    .content ul li {
+      float: left; }
+      .content ul li a {
+        margin: 5px 10px;
+        display: block;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        color: black; }
+      .content ul li a:hover {
+        border-bottom: 1px solid #000; }
+
+.content2 {
+  width: 1230px;
+  min-height: 440px; }
+  .content2 .left {
+    float: left;
+    width: 246px;
+    height: 440px; }
+  .content2 .middle {
+    float: left;
+    width: 735px;
+    height: 440px; }
+  .content2 .right {
+    float: left;
+    width: 248px;
+    height: 440px; }
+
+html, body {
+  background: white; }
+
+.navwrap {
+  background: #f5f5f5;
+  width: 100%; }
+  .navwrap .nav {
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto; }
+
+.logowrap .logo {
+  width: 1190px;
+  height: 35px;
+  margin: 0 auto;
+  padding: 20px 0px 40px 0px; }
+  .logowrap .logo h1 {
+    float: left; }
+    .logowrap .logo h1 a {
+      display: block;
+      width: 181px;
+      height: 45px;
+      float: left;
+      background: url(../styleimg/logo.png) no-repeat -110px 0px; }
+  .logowrap .logo .seach {
+    float: right;
+    width: 422px;
+    height: 29px;
+    padding-left: 79px;
+    border: 3px solid #ff4400;
+    position: relative; }
+    .logowrap .logo .seach li {
+      float: left; }
+    .logowrap .logo .seach .kinds {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 79px;
+      line-height: 29px;
+      text-align: center;
+      cursor: pointer; }
+      .logowrap .logo .seach .kinds a {
+        color: #999999; }
+      .logowrap .logo .seach .kinds i {
+        position: absolute;
+        right: 0px;
+        top: 8px;
+        width: 30px;
+        height: 10px;
+        background: url(../styleimg/rg_jt.png) no-repeat 0px -21px; }
+    .logowrap .logo .seach .cartseach {
+      width: 329px;
+      height: 18px;
+      padding: 5px 0px;
+      position: relative; }
+      .logowrap .logo .seach .cartseach input {
+        width: 329px;
+        outline: none; }
+      .logowrap .logo .seach .cartseach i {
+        position: absolute;
+        left: 2px;
+        top: 8px;
+        width: 12px;
+        height: 12px;
+        background: url(../styleimg/cart_sec.png) no-repeat -379px -20px; }
+    .logowrap .logo .seach .cartBtn a {
+      display: block;
+      width: 93px;
+      height: 29px;
+      background: url(../styleimg/cart_sec.png) no-repeat -263px -7px; }
+
+.cartinfowrap {
+  width: 100%; }
+  .cartinfowrap .carinfo {
+    margin: 20px 0px 40px 0px;
+    overflow: hidden; }
+    .cartinfowrap .carinfo div {
+      width: 1190px;
+      margin: 0 auto; }
+      .cartinfowrap .carinfo div dl {
+        float: left; }
+        .cartinfowrap .carinfo div dl dt {
+          float: left; }
+        .cartinfowrap .carinfo div dl dd {
+          float: left; }
+          .cartinfowrap .carinfo div dl dd a {
+            color: #36C;
+            padding-right: 8px;
+            margin-right: 1px;
+            background: url(../styleimg/cart_jt.gif) no-repeat right center; }
+      .cartinfowrap .carinfo div ul {
+        float: right; }
+        .cartinfowrap .carinfo div ul li {
+          float: left; }
+
+.cartempty {
+  padding: 88px 0 100px 156px;
+  width: 1034px;
+  height: 72px;
+  margin: 0 auto;
+  background: url(//gtd.alicdn.com/tps/i3/T1TvXUXnNjXXXXXXXX-100-100.png) no-repeat 40px 86px; }
+  .cartempty h2 {
+    font: 700 14px / 20px arial; }
+  .cartempty ul {
+    margin-top: 12px; }
+
+.cartmain {
+  width: 1190px;
+  min-height: 200px;
+  _height: 200px;
+  margin: 0 auto; }
+  .cartmain .taobaoGwc {
+    height: 33px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ccc; }
+    .cartmain .taobaoGwc ul .bottomborder {
+      border-bottom: 2px solid #f40; }
+    .cartmain .taobaoGwc ul li {
+      float: left;
+      font-weight: 700;
+      font-size: 16px;
+      height: 16px;
+      line-height: 1.1;
+      font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;
+      text-align: center;
+      padding: 0 0 15px 0;
+      cursor: pointer;
+      margin-left: -1px; }
+      .cartmain .taobaoGwc ul li a {
+        color: #3c3c3c;
+        padding-left: 15px; }
+      .cartmain .taobaoGwc ul li .num {
+        color: #f40;
+        font-size: 14px;
+        margin: 0 30px 0 5px;
+        font-weight: 400; }
+    .cartmain .taobaoGwc .buy {
+      float: right;
+      line-height: 33px; }
+      .cartmain .taobaoGwc .buy span {
+        float: left;
+        display: block; }
+      .cartmain .taobaoGwc .buy em {
+        margin-left: 5px;
+        color: #f40;
+        float: left; }
+      .cartmain .taobaoGwc .buy a {
+        margin-left: 2px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        float: left;
+        width: 55px;
+        background: #aaa;
+        color: white; }
+  .cartmain .carmainmidd {
+    height: 50px;
+    line-height: 50px;
+    color: #3c3c3c; }
+    .cartmain .carmainmidd a {
+      color: #3c3c3c; }
+    .cartmain .carmainmidd .left {
+      width: 80px;
+      float: left;
+      text-align: center; }
+      .cartmain .carmainmidd .left input {
+        float: left;
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin: 19px 0px 0px 15px; }
+    .cartmain .carmainmidd .middle {
+      width: 251px;
+      padding-left: 51px;
+      float: left; }
+    .cartmain .carmainmidd .right {
+      width: auto;
+      float: right; }
+      .cartmain .carmainmidd .right ul {
+        float: left; }
+        .cartmain .carmainmidd .right ul li {
+          float: left;
+          padding-left: 10px;
+          width: 120px; }
+      .cartmain .carmainmidd .right .rightinfo1 {
+        float: left;
+        width: 130px;
+        padding-left: 10px; }
+      .cartmain .carmainmidd .right .rightinfo2 {
+        float: left;
+        width: 119px;
+        padding-left: 30px; }
+  .cartmain .together {
+    border: 1px solid #ccc;
+    margin-bottom: 10px; }
+  .cartmain .togetherwrap {
+    margin: 10px 0px; }
+  .cartmain .detailcartinfo {
+    margin-bottom: 15px; }
+    .cartmain .detailcartinfo .infoheader {
+      background: #fff;
+      line-height: 38px; }
+      .cartmain .detailcartinfo .infoheader div {
+        height: 38px;
+        line-height: 38px;
+        padding-left: 15px; }
+        .cartmain .detailcartinfo .infoheader div input {
+          float: left;
+          width: 15px;
+          height: 15px;
+          margin: 11px 0px; }
+        .cartmain .detailcartinfo .infoheader div span {
+          display: block;
+          float: left;
+          line-height: 38px;
+          margin-left: 20px;
+          color: #3c3c3c; }
+        .cartmain .detailcartinfo .infoheader div a {
+          display: block;
+          float: left;
+          line-height: 38px;
+          margin-left: 5px;
+          color: #3c3c3c; }
+  .cartmain .peoplelgoods .wrap .wrapheader {
+    height: 28px;
+    padding-top: 9px;
+    border-bottom: 1px solid #e8e8e8; }
+  .cartmain .peoplelgoods .wrap .wrapfootr {
+    background: #fcfcfc;
+    min-height: 119px; }
+  .cartmain .wrapfootr {
+    height: 50px;
+    background: #e5e5e5; }
+    .cartmain .wrapfootr ul li {
+      height: 50px;
+      float: left; }
+    .cartmain .wrapfootr ul .one {
+      width: 50px;
+      min-height: 119px;
+      position: relative; }
+      .cartmain .wrapfootr ul .one input {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        width: 15px;
+        height: 15px; }
+    .cartmain .wrapfootr ul .tw {
+      width: 342px;
+      min-height: 99px;
+      padding-top: 20px; }
+      .cartmain .wrapfootr ul .tw a {
+        display: block;
+        overflow: hidden;
+        display: block;
+        height: 80px;
+        color: #3C3C3C; }
+      .cartmain .wrapfootr ul .tw img {
+        width: 80px;
+        height: 80px;
+        display: block;
+        float: left;
+        margin-right: 10px; }
+      .cartmain .wrapfootr ul .tw span {
+        float: left;
+        width: 250px;
+        display: block;
+        line-height: 20px; }
+    .cartmain .wrapfootr ul .thir {
+      padding: 16px 35px 16px 0px;
+      min-height: 84px;
+      width: 212px; }
+    .cartmain .wrapfootr ul .four {
+      width: 130px;
+      min-height: 119px; }
+      .cartmain .wrapfootr ul .four a {
+        display: block;
+        padding-top: 12px;
+        color: #9c9c9c; }
+        .cartmain .wrapfootr ul .four a .fourtop {
+          padding: 8px 0 0 10px;
+          line-height: 1;
+          width: 74px; }
+    .cartmain .wrapfootr ul .five {
+      width: 120px;
+      padding-top: 20px;
+      min-height: 99px; }
+      .cartmain .wrapfootr ul .five .fourtop {
+        padding: 8px 0 0 10px;
+        line-height: 1;
+        width: 74px; }
+        .cartmain .wrapfootr ul .five .fourtop div {
+          width: 65px;
+          padding: 0 17px 0 0;
+          height: 23px;
+          line-height: 23px;
+          border: 1px solid #ffe1d3;
+          text-align: center;
+          color: #f40; }
+    .cartmain .wrapfootr ul .six {
+      width: 140px;
+      padding-top: 10px;
+      min-height: 99px; }
+      .cartmain .wrapfootr ul .six div {
+        padding-top: 20px;
+        height: 25px;
+        line-height: 25px; }
+        .cartmain .wrapfootr ul .six div a {
+          width: 17px;
+          height: 23px;
+          line-height: 23px;
+          text-align: center;
+          border: 1px solid #ccc;
+          float: left;
+          background: #ccc; }
+        .cartmain .wrapfootr ul .six div input {
+          width: 39px;
+          border: 1px solid black;
+          padding: 4px 0px;
+          height: 15px;
+          float: left; }
+    .cartmain .wrapfootr ul .seven {
+      padding-left: 30px;
+      width: 89px;
+      min-height: 59px;
+      display: block;
+      padding: 30px 30px; }
+      .cartmain .wrapfootr ul .seven a {
+        display: block;
+        color: #3c3c3c;
+        padding-bottom: 3px; }
+      .cartmain .wrapfootr ul .seven a:hover {
+        color: #f40;
+        text-decoration: underline; }
+  .cartmain .changefooter {
+    height: 50px;
+    margin-top: 20px;
+    background: #e5e5e5;
+    position: relative; }
+    .cartmain .changefooter .one {
+      float: left;
+      line-height: 50px;
+      height: 50px; }
+      .cartmain .changefooter .one input {
+        margin: 0px 9px; }
+    .cartmain .changefooter .tw a {
+      margin-left: 25px;
+      color: #3c3c3c;
+      float: left;
+      line-height: 50px;
+      height: 50px; }
+    .cartmain .changefooter .three {
+      float: right;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 4;
+      padding-left: 20px; }
+      .cartmain .changefooter .three div {
+        float: left; }
+      .cartmain .changefooter .three .left {
+        line-height: 48px; }
+        .cartmain .changefooter .three .left em {
+          color: #f40;
+          font-weight: 700;
+          font-size: 18px;
+          font-family: tohoma,arial; }
+      .cartmain .changefooter .three .middle {
+        line-height: 48px; }
+        .cartmain .changefooter .three .middle em {
+          color: #f40;
+          font-weight: 700;
+          font-size: 18px;
+          font-family: tohoma,arial; }
+      .cartmain .changefooter .three .right a {
+        margin-left: 5px;
+        display: block;
+        background: #B0B0B0;
+        border-radius: 5px;
+        color: #fff;
+        border-left: 1px solid #e7e7e7;
+        width: 119px;
+        height: 48px;
+        cursor: not-allowed;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-family: 'Lantinghei SC','Microsoft Yahei';
+        font-size: 20px; }
+      .cartmain .changefooter .three .right .check {
+        background: #f40;
+        cursor: pointer; }
+
+.cartcontent {
+  margin: 0 auto;
+  width: 1190px;
+  margin-top: 50px; }
+  .cartcontent .contentwrap {
+    margin: 0 auto;
+    width: 1190px; }
+    .cartcontent .contentwrap .contenttab {
+      height: 25px;
+      padding: 0 13px 6px 0;
+      border-bottom: 2px solid #ccc; }
+      .cartcontent .contentwrap .contenttab li {
+        float: left;
+        padding: 0 13px 10px 0; }
+        .cartcontent .contentwrap .contenttab li a {
+          padding-left: 13px;
+          color: #3c3c3c;
+          font-size: 14px;
+          font-weight: 700; }
+      .cartcontent .contentwrap .contenttab span {
+        float: left;
+        color: #ccc; }
+      .cartcontent .contentwrap .contenttab li:hover {
+        border-bottom: 2px solid #f40; }
+      .cartcontent .contentwrap .contenttab li:hover a {
+        color: #f40; }
+    .cartcontent .contentwrap .contentheader {
+      width: 1190px;
+      height: 2px;
+      margin-bottom: 20px; }
+
+.contentgood {
+  width: 1190px;
+  min-height: 300px;
+  _height: 300px;
+  overflow: hidden;
+  margin: 0 auto; }
+  .contentgood ul {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 230px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px; }
+    .contentgood ul li {
+      width: 230px;
+      white-space: nowrap; }
+    .contentgood ul .cartprice {
+      font-size: 14px;
+      color: #f40;
+      display: block;
+      margin-top: 9px; }
+    .contentgood ul img {
+      display: block; }
+    .contentgood ul .txt {
+      height: 23px;
+      line-height: 23px; }
+      .contentgood ul .txt a {
+        color: #3c3c3c; }
+    .contentgood ul .xl {
+      color: #ccc;
+      line-height: 20px; }
+    .contentgood ul button {
+      margin: 10px 60px;
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      background-color: #666666;
+      border: 1px solid #666666;
+      color: white;
+      text-align: center; }
+
+.footerwrap {
+  width: 1190px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #ddd; }
+  .footerwrap .footerhead {
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 8px; }
+    .footerwrap .footerhead span {
+      margin: 0px 4px; }
+      .footerwrap .footerhead span b {
+        color: #ddd;
+        margin: 0px 3px; }
+      .footerwrap .footerhead span a {
+        color: #6c6c6c; }
+      .footerwrap .footerhead span a:hover {
+        color: #f40; }
+  .footerwrap .footerbott p {
+    margin-bottom: 8px; }
+    .footerwrap .footerbott p span {
+      color: #6c6c6c;
+      margin: 0px 4px; }
+      .footerwrap .footerbott p span a {
+        color: #6c6c6c; }
+        .footerwrap .footerbott p span a img {
+          display: inline-block; }
+      .footerwrap .footerbott p span a:hover {
+        color: #f40; }
+    .footerwrap .footerbott p b {
+      margin: 0px 3px;
+      color: #ddd; }
+
+.end {
+  height: 28px; }
+
+/*# sourceMappingURL=cart.css.map */

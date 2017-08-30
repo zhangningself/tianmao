@@ -1,0 +1,167 @@
+@import 'public';
+body{
+    background: white;
+}
+.loginSwitch{
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	i{
+	    display: none;
+	}
+	.show{
+		display:block;
+		color: #c40000;
+		font-size: 52px;
+    	cursor: pointer;
+	}
+//	.hide{
+//		display: none;
+//		color: #c40000;
+//      font-size: 52px;
+//      cursor: pointer;
+//	}
+}
+
+.popatten{
+	color: #df9c1f;
+	font-size: 12px;
+	position: absolute;
+	right: 55px;
+	top: 12px;
+	height: 16px;
+    line-height: 16px;
+    padding: 5px 20px 5px 15px;
+    border: 1px solid #df9c1f;
+}
+.loginmain{
+	width: 298px;
+	margin:50px auto 0;
+	height: 300px;
+	form{
+	    display: none;
+	}
+	.show{
+	     display: block;
+	}
+	fieldset{
+		border: none;
+		
+		.txt{
+			margin-top: 25px;
+			position: relative;
+			label{
+				position: absolute;
+				top: 1px;
+                left: 1px;
+				font-size: 22px;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				background: #dddddd;
+			}
+			input{
+				padding-left: 45px;
+				width: 253px;
+				height: 40px;
+				color: #999;
+				font-size: 14px;
+				border: 2px solid #ddd;
+			}
+			span{
+			   position: absolute; 
+			   top:43px;
+			   left:0px;
+			   display: block;
+			   width: 300px;
+			   font-size: 12px;
+			   height: 30px;
+			   line-height: 30px;
+			   color: red;
+			}
+		}
+		.pwd{
+			margin-top: 25px;
+			position: relative;
+			span{
+               position: absolute; 
+               top:43px;
+               left:0px;
+               display: block;
+               width: 300px;
+               font-size: 12px;
+               height: 30px;
+               line-height: 30px;
+               color: red;
+            }
+			label{
+				position: absolute;
+				top: 2px;
+				left: 1px;
+				font-size: 22px;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				background: #dddddd;
+			}
+			input{
+				padding-left: 45px;
+				width: 253px;
+				height: 40px;
+				color: #999;
+				font-size: 14px;
+				border: 2px solid #ddd;
+			}
+		}
+	}
+	legend{
+	    h1{
+	    	height: 18px;
+		    line-height: 18px;
+		    font-size: 16px;
+		    color: #3c3c3c;
+		    font-weight: 700px;
+	    }
+	}
+	
+	.submit{
+		background: #af0000;
+		width: 300px;
+		height: 40px;
+		margin-top: 30px;
+		font-size: 14px;
+		color: white;
+		cursor: pointer;
+	}
+	.other{
+		margin-top: 25px;
+		p{
+			float: right;
+			a{
+				margin-right: 10px;
+				color: #6c6c6c;
+			}
+		}
+	}
+	.erweima{
+	    
+	    h3{
+	        width: 298px;
+	        text-align: left;
+	        line-height: 30px;
+	    }
+	    img{
+	        padding:20px 80px;
+	    }
+	    p{
+	        text-align: center;
+	    }
+	}
+	.erweimhide{
+            display: none;
+        }
+}
+
+

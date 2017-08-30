@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/login_fz.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font2.css"/>
+		
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+					<div class="loginwrap">
+						<div class="loginSwitch">
+							<i class="iconfont show"></i>
+							<i class="iconfont"></i>
+						</div>
+					<div class="popatten">
+						<i class="iconfont"></i>
+						扫码登录更安全
+					</div>
+					<div class="loginmain">
+						<form action="php/login.php">
+							<fieldset>
+							<legend><h1>密码登录</h1></legend>
+							<div class="txt">
+								<label>
+									<i class="iconfont"></i>
+								</label>
+								<input type="text" name="username" id="username" placeholder="会员名/邮箱/手机号" />
+								<span></span>
+							</div>
+							<div class="pwd">
+						 		<label>
+									<i class="iconfont"></i>
+								</label>
+								<input type="password" name="pwd" id="pwd" />
+								<span></span>
+							</div>
+							<!--<input type="submit" class="submit" name="submit" id="sub" value="登录" />-->
+							<!--<button id="sub">登录</button>-->
+							<input class="submit" type="button" id="sub" value="登录" />
+							
+							<div class="other">
+								<p>
+								<a href="#">忘记密码？</a>
+								<a href="register.html" target="_blank">免费注册</a>
+								</p>
+							</div>
+						</fieldset>
+						</form>
+						<div class="erweima">
+							<div class="login_title">
+								<h3>手机扫码，安全登录</h3>
+							</div>
+							<img  src="styleimg/erweima.png"/>
+							<p><span>打开</span><span>手机天猫</span><span>手机淘宝</span> </p>
+							<p>扫一扫登录</p>
+						</div>
+					</div>
+		</div>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

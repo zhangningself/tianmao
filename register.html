@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font3.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font4.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font5.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<ol>
+				<li class="liactive">
+					<i class="iactive">1</i>
+					<span class="rg_active">设置用户名</span>
+				</li>
+				<li>
+					<i>2</i>
+					<span>填写账号信息</span>
+				</li>
+				<li>
+					<i>3</i>
+					<span>设置支付方式</span>
+				</li>
+				<li>
+					<i>4</i>
+					<span>注册成功</span>
+				</li>
+			</ol>
+		</div>
+		<div class="main">
+			<form action="php/reg.php" method="post">
+			<div class="mainwrap">
+				
+					<label>手机号</label>
+					<div class="select">
+						<span>
+							中国大陆
+						</span>
+						<p>
+							+86
+						</p>
+						<i></i>
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+					<input  type="text" name="phone" id="phone" placeholder="请输入你的手机号码" />
+					<em></em>
+					<div class="sugg">
+						<i class="iconfont">󰅕</i>
+						请输入你的手机号码
+					</div>
+			</div>
+			<div class="regpwd">
+						<label>设置登录密码</label>
+						<p>登录时验证，保护账号信息</p>
+			</div>
+			<div class="yzwrap">
+					<div class="password">
+						<label>
+							登录密码
+						</label>
+						<input type="password" name="password" id="password" placeholder="请输入密码"  />
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<span></span>
+						</ul>
+						
+					</div>
+					<div class="againpassword">
+						<label>
+							再次输入密码
+						</label>
+						<input type="password" name="re_pwd" id="re_pwd" placeholder="请再次输入登录密码"  />
+						<ul>
+							<li>
+							</li>
+							<li></li>
+							<li></li>
+							<span></span>
+						</ul>
+					</div>
+					<div class="yhm">
+						<label>设置会员名</label>
+						
+					</div>
+					
+					<div class="loginName">
+						<label>
+							登录名
+						</label>
+						<input type="txt" name="loginName" id="loginName" placeholder="会员名一旦设置，无法修改"  />
+						<span></span>
+					</div>
+					
+					<div class="sub">
+						<div>
+							<input type="submit" name="submit" id="submit" value="注册" />
+						</div>
+					</div>
+			</div>
+			</form>
+			<div class="posi">
+				<div class="posiwrap">
+					<div class="alicare-dialog-iconfont"></div>
+					<p>有问题？</p>
+					<p>找小蜜</p>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

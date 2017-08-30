@@ -1,0 +1,348 @@
+@import "public";
+html,
+body {
+    background: white;
+}
+
+.header {
+    margin: 0 auto;
+    width: 990px;
+    height: 46px;
+    border-bottom: 2px solid #e6e6e6;
+    ol {
+        height: 46px;
+        padding-left: 120px;
+        i {
+            display: inline-block;
+            zoom: 1;
+            margin-right: 5px;
+            width: 24px;
+            height: 24px;
+            text-align: center;
+            font-style: normal;
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #FFF;
+            margin-top: 11px;
+            background: url('../styleimg/re_yuan2.png') no-repeat center center;
+        }
+        i.iactive {
+            background: url('../styleimg/re_yuan.png') no-repeat center center;
+        }
+        li.liactive {
+            border-bottom: 2px solid #c40000;
+        }
+        span {
+            color: #9e9e9e;
+            font-size: 16px;
+        }
+        span.rg_active {
+            color: #3e3e3e;
+            font-size: 16px;
+        }
+    }
+    li {
+        width: 150px;
+        padding-left: 30px;
+        height: 46px;
+        float: left;
+    }
+}
+
+.main {
+    margin: 0 auto;
+    padding: 50px 0px;
+    width: 600px;
+    font-size: 14px;
+    color: #3c3c3c;
+    position: relative;
+}
+
+.mainwrap {
+    padding: 10px 0 10px 0px;
+    height: 37px;
+    position: relative;
+    label {
+        float: left;
+        display: block;
+        width: 60px;
+        height: 37px;
+        padding-left: 160px;
+        padding-right: 20px;
+        text-align: right;
+        line-height: 37px;
+    }
+    .select {
+        border: 1px solid #ccc;
+        float: left;
+        width: 150px;
+        height: 35px;
+        padding-left: 10px;
+        position: relative;
+        cursor: pointer;
+        i {
+            display: block;
+            width: 10px;
+            height: 8px;
+            position: absolute;
+            right: 8px;
+            top: 11px;
+            background: url('../styleimg/rg_jt.png') no-repeat -10px -22px;
+        }
+    }
+    span {
+        float: left;
+        display: block;
+        line-height: 35px;
+        width: 85px;
+        height: 35px;
+    }
+    p {
+        float: right;
+        line-height: 35px;
+        margin-right: 25px;
+    }
+    input {
+        float: left;
+        width: 140px;
+        height: 17px;
+        line-height: 17px;
+        padding: 9px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+    input.borderactive {
+        border-color: #ff3f13;
+    }
+    .sugg {
+        width: 150px;
+        font-size: 12px;
+        float: left;
+        padding: 5px 5px;
+        display: none;
+    }
+    em{
+        position: absolute;
+        right: -166px;
+//      background: red;
+        top: 15px;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+.yzwrap {
+    padding: 10px 0 10px 0px;
+}
+
+.regpwd {
+    padding: 10px 0 10px 0px;
+    height: 37px;
+    label {
+        color: #3c3c3c;
+        float: left;
+        display: block;
+        font-size: 16px;
+        width: 120px;
+        height: 37px;
+        padding-left: 100px;
+        padding-right: 20px;
+        text-align: right;
+        line-height: 37px;
+    }
+    p {
+        line-height: 37px;
+    }
+    
+}
+
+.password {
+    position: relative;
+    label {
+        float: left;
+        display: block;
+        width: 60px;
+        height: 37px;
+        padding-left: 160px;
+        padding-right: 20px;
+        text-align: right;
+        line-height: 37px;
+    }
+    input {
+        font-size: 14px;
+        width: 320px;
+        height: 37px;
+        border: 1px solid #ccc;
+    }
+    ul{
+        width: 250px;
+        height: 30px;
+        position: absolute;
+        right: -215px;
+        top: 0px;
+        line-height: 30px;
+        li{
+            text-align: center;
+            color: white;
+            float: left;
+            width: 50px;
+            height: 30px;
+            z-index: 2000;
+        }
+        span{
+            display: block;
+            width: 100px;
+            height: 30px;
+             float: left;
+            line-height: 30px;
+        }
+    }
+}
+
+.againpassword {
+    position: relative;
+    padding: 10px 0 10px 0px;
+    label {
+        float: left;
+        display: block;
+        width: 120px;
+        height: 37px;
+        padding-left: 100px;
+        padding-right: 20px;
+        text-align: right;
+        line-height: 37px;
+    }
+    input {
+        font-size: 14px;
+        width: 320px;
+        height: 37px;
+        border: 1px solid #ccc;
+    }
+     ul{
+        width: 250px;
+        height: 30px;
+        line-height: 30px;
+        position: absolute;
+        right: -215px;
+        top: 15px;
+        li{
+            color: white;
+            text-align: center;
+            float: left;
+            width: 50px;
+            height: 30px;
+            z-index: 2000;
+        }
+        span{
+            display: block;
+            width: 100px;
+            height: 30px;
+             float: left;
+            line-height: 30px;
+        }
+    }
+}
+
+.yhm {
+    padding: 10px 0 10px 0px;
+    height: 37px;
+    label {
+        color: #3c3c3c;
+        float: left;
+        display: block;
+        font-size: 16px;
+        width: 120px;
+        height: 37px;
+        padding-left: 100px;
+        padding-right: 20px;
+        text-align: right;
+        line-height: 37px;
+    }
+}
+
+.loginName {
+    position: relative;
+    label {
+        float: left;
+        display: block;
+        width: 60px;
+        height: 37px;
+        padding-left: 160px;
+        padding-right: 20px;
+        text-align: right;
+        line-height: 37px;
+    }
+    input {
+        font-size: 14px;
+        width: 320px;
+        height: 37px;
+        border: 1px solid #ccc;
+    }
+    span{
+        position: absolute;
+        right: -165px;
+        top: 22px;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+.sub {
+    padding: 40px 0 10px 63px;
+    div {
+        width: 180px;
+        height: 37px;
+        margin: 0 auto;
+        input {
+            border-radius: 5px;
+            width: 180px;
+            height: 37px;
+            background: #c40000;
+            color: white;
+            font-size: 14px;
+        }
+    }
+}
+
+.posi {
+    width: 58px;
+    height: 90px;
+    background: #ccc;
+    position: absolute;
+    right: -150px;
+    top: 260px;
+    border-radius:5px ;
+    .posiwrap {
+         border-radius:5px ;
+        width: 54px;
+        height: 86px;
+        text-align: center;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        cursor: pointer;
+        background: white;
+        p {
+            color: #b7b7b7;
+            font-size: 12px;
+            line-height: 24px;
+        }
+    }
+}
+
+.posi:hover {
+    width: 58px;
+    height: 90px;
+    background: #f7931e;
+    position: absolute;
+    right: -150px;
+    top: 260px;
+    p {
+        color: #f7931e;
+        font-size: 12px;
+        line-height: 24px;
+    }
+}

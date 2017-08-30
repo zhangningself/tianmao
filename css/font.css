@@ -1,0 +1,10 @@
+@font-face {
+	font-family: fpIconFont;
+	src: url(../font/font_eu7qkdb0zt3jif6r.svg);
+	src: url(../font/font_eu7qkdb0zt3jif6r.eot?#iefix) format('embedded-opentype'), url(../font/font_eu7qkdb0zt3jif6r.woff) format('woff'), url(../font/font_eu7qkdb0zt3jif6r.ttf) format('truetype'), url(../font/font_eu7qkdb0zt3jif6r.svg#fpIconFont) format('svg')
+}
+
+.fp-iconfont {
+	font-family: fpIconFont!important
+}
+

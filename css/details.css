@@ -1,0 +1,637 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif; }
+
+em, i {
+  font-style: normal; }
+
+body {
+  background: #f5f5f5; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+input {
+  border: none; }
+
+button {
+  border: none; }
+
+.clear {
+  clear: both;
+  display: block;
+  content: "\20"; }
+
+.content {
+  width: 1230px;
+  min-height: 30px; }
+  .content li {
+    float: left; }
+  .content li:nth-of-type(1) {
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 20px;
+    color: #000; }
+  .content li:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #000; }
+  .content ul {
+    float: right; }
+    .content ul li {
+      float: left; }
+      .content ul li a {
+        margin: 5px 10px;
+        display: block;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        color: black; }
+      .content ul li a:hover {
+        border-bottom: 1px solid #000; }
+
+.content2 {
+  width: 1230px;
+  min-height: 440px; }
+  .content2 .left {
+    float: left;
+    width: 246px;
+    height: 440px; }
+  .content2 .middle {
+    float: left;
+    width: 735px;
+    height: 440px; }
+  .content2 .right {
+    float: left;
+    width: 248px;
+    height: 440px; }
+
+html, body {
+  background: white; }
+
+.headerwrap {
+  width: 100%;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+.header {
+  height: 30px;
+  width: 1190px;
+  margin: 0 auto; }
+  .header i {
+    margin-right: 4px; }
+  .header .indexhtml {
+    float: left;
+    margin-right: 20px;
+    line-height: 30px;
+    color: #999999; }
+  .header p {
+    float: left;
+    line-height: 30px;
+    color: #999999;
+    font-size: 12px; }
+    .header p a {
+      margin-left: 20px;
+      color: #999999;
+      font-size: 12px; }
+  .header a:hover {
+    color: #c40000; }
+    .header a:hover span {
+      color: #c40000; }
+
+.navlist {
+  line-height: 30px;
+  float: right; }
+  .navlist li {
+    float: left;
+    height: 30px;
+    color: #999999; }
+    .navlist li a {
+      padding: 0px 15px;
+      color: #999999; }
+    .navlist li .shang {
+      display: inline-block;
+      margin-left: 4px;
+      border-right: 2.4px solid transparent;
+      border-left: 2.4px solid transparent;
+      border-top: 2.4px solid #999999;
+      border-bottom: 2.4px solid transparent; }
+    .navlist li .xia {
+      display: inline-block;
+      margin-left: 4px;
+      margin-bottom: 4px;
+      border-right: 2.4px solid transparent;
+      border-left: 2.4px solid transparent;
+      border-top: 2.4px solid transparent;
+      border-bottom: 2.4px solid #999999; }
+  .navlist .detailcart span {
+    color: #3C3C3C; }
+  .navlist .detailcart a:hover {
+    color: #c40000; }
+    .navlist .detailcart a:hover span {
+      color: #c40000; }
+  .navlist .bg4 span {
+    padding: 0 15px 0px 0px; }
+
+.headercontent {
+  padding-top: 30px;
+  height: 115px; }
+  .headercontent .logowrap {
+    width: 1190px;
+    height: 115px;
+    margin: 0 auto; }
+    .headercontent .logowrap h1 {
+      float: left;
+      width: 162px;
+      height: 64px; }
+      .headercontent .logowrap h1 a {
+        display: block;
+        width: 162px;
+        height: 44px;
+        padding-top: 20px;
+        padding-right: 7px;
+        background: url(../styleimg/detailslogo.png) no-repeat 0px 26px;
+        background-size: 145px auto; }
+    .headercontent .logowrap .logoww {
+      padding: 15px 0px 0px 0px;
+      float: left;
+      width: 284px;
+      height: 65px; }
+      .headercontent .logowrap .logoww img {
+        width: 284px;
+        height: 65px; }
+    .headercontent .logowrap .logoseach {
+      float: right;
+      width: 670px;
+      height: 70px; }
+      .headercontent .logowrap .logoseach .seach {
+        width: 540px;
+        float: left;
+        min-height: 36px;
+        _height: 36px;
+        margin-top: 15px; }
+        .headercontent .logowrap .logoseach .seach div {
+          float: left;
+          height: 36px;
+          width: 447px;
+          border: 2px solid #c40000; }
+        .headercontent .logowrap .logoseach .seach #xqseach {
+          outline: none;
+          float: left;
+          width: 359px;
+          height: 26px;
+          border: 0;
+          padding: 5px 3px 5px 5px; }
+        .headercontent .logowrap .logoseach .seach button {
+          outline: none;
+          float: left;
+          width: 80px;
+          height: 36px;
+          border: 0;
+          font-size: 16px;
+          background: #c40000; }
+        .headercontent .logowrap .logoseach .seach a {
+          float: right;
+          background: #331;
+          width: 80px;
+          height: 36px;
+          border: 2px solid #331;
+          font-size: 16px;
+          letter-spacing: 0;
+          cursor: pointer;
+          color: #fff;
+          line-height: 36px;
+          text-align: center; }
+      .headercontent .logowrap .logoseach ul {
+        width: 540px;
+        height: 19px; }
+        .headercontent .logowrap .logoseach ul li {
+          float: left;
+          border-left: 1px solid #ccc;
+          line-height: 1.1;
+          padding: 5px 12px; }
+          .headercontent .logowrap .logoseach ul li a {
+            color: #999; }
+
+.banner img {
+  display: block;
+  width: 100%; }
+
+#detail {
+  margin: 20px auto;
+  width: 990px;
+  padding-right: 200px;
+  position: relative; }
+  #detail .detail_right {
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    overflow: hidden; }
+    #detail .detail_right div {
+      width: 200px;
+      height: 1800px;
+      position: absolute;
+      left: 0px;
+      top: 0px; }
+    #detail .detail_right img {
+      width: 200px; }
+  #detail .detail_fdj {
+    width: 990px;
+    position: relative;
+    z-index: 100;
+    min-height: 950px;
+    _height: 950px; }
+    #detail .detail_fdj .fdj_left {
+      width: 460px;
+      float: left;
+      position: relative; }
+      #detail .detail_fdj .fdj_left .left_top {
+        width: 420px;
+        height: 420px;
+        margin: 0px 20px;
+        position: relative; }
+        #detail .detail_fdj .fdj_left .left_top img {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          opacity: 0; }
+        #detail .detail_fdj .fdj_left .left_top .mask {
+          background: pink;
+          opacity: .6;
+          position: absolute;
+          left: 0px;
+          top: 0px; }
+      #detail .detail_fdj .fdj_left .left_bott a {
+        display: block;
+        box-sizing: border-box;
+        width: 60px;
+        height: 60px; }
+      #detail .detail_fdj .fdj_left .left_bott ul {
+        margin-left: 16px; }
+      #detail .detail_fdj .fdj_left .left_bott li {
+        float: left;
+        margin-left: 16px;
+        padding-top: 22px; }
+        #detail .detail_fdj .fdj_left .left_bott li img {
+          width: 56px;
+          height: 56px;
+          display: block; }
+      #detail .detail_fdj .fdj_left .fdjdetail {
+        width: 430px;
+        height: 430px;
+        position: absolute;
+        left: 460px;
+        top: 0px;
+        z-index: 22;
+        overflow: hidden;
+        border: 1px solid #999999;
+        display: none; }
+        #detail .detail_fdj .fdj_left .fdjdetail img {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          opacity: 0; }
+    #detail .detail_fdj .fdj_right {
+      width: 530px;
+      float: left; }
+      #detail .detail_fdj .fdj_right .right_top {
+        width: 530px;
+        padding: 20px 10px 12px; }
+        #detail .detail_fdj .fdj_right .right_top .top_title a {
+          padding-bottom: .2em;
+          line-height: 1;
+          font-size: 16px;
+          font-weight: 700;
+          color: #000; }
+        #detail .detail_fdj .fdj_right .right_top .top_change a {
+          font-size: 14px;
+          color: #dd2727; }
+      #detail .detail_fdj .fdj_right .right_middle {
+        width: 510px;
+        padding: 5px 0px;
+        background: #e9e9e9;
+        margin: 0px 20px 0px 10px; }
+        #detail .detail_fdj .fdj_right .right_middle .mid_pannel {
+          height: 35px;
+          line-height: 35px;
+          color: #999;
+          margin: 0 10px 0 8px; }
+          #detail .detail_fdj .fdj_right .right_middle .mid_pannel img {
+            float: left;
+            width: 58px;
+            height: 16px;
+            display: inline-block;
+            margin: 10px 5px 0 0; }
+          #detail .detail_fdj .fdj_right .right_middle .mid_pannel a {
+            float: right;
+            padding-right: 60px;
+            background: url(../styleimg/gwcjt.png) no-repeat 49px center;
+            color: #dd2727; }
+        #detail .detail_fdj .fdj_right .right_middle .gwcprice {
+          padding-left: 70px;
+          position: relative;
+          overflow: hidden; }
+          #detail .detail_fdj .fdj_right .right_middle .gwcprice dt {
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            color: #999; }
+          #detail .detail_fdj .fdj_right .right_middle .gwcprice em {
+            float: left; }
+          #detail .detail_fdj .fdj_right .right_middle .gwcprice dd {
+            float: left;
+            font-size: 14px;
+            color: black;
+            text-decoration: line-through; }
+        #detail .detail_fdj .fdj_right .right_middle .gwcprice1 {
+          padding-left: 70px;
+          position: relative;
+          overflow: hidden; }
+          #detail .detail_fdj .fdj_right .right_middle .gwcprice1 dt {
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            color: #999;
+            line-height: 30px; }
+          #detail .detail_fdj .fdj_right .right_middle .gwcprice1 dd, #detail .detail_fdj .fdj_right .right_middle .gwcprice1 em {
+            float: left;
+            font-size: 30px;
+            color: #c40000;
+            font-weight: bolder; }
+      #detail .detail_fdj .fdj_right .ship_price {
+        width: 510px;
+        margin: 5px 20px 5px 10px;
+        overflow: hidden; }
+        #detail .detail_fdj .fdj_right .ship_price .shipleft {
+          float: left;
+          line-height: 30px;
+          margin-left: 10px;
+          color: #999; }
+        #detail .detail_fdj .fdj_right .ship_price .shipright {
+          float: right;
+          width: 440px;
+          padding: 9px 0px; }
+      #detail .detail_fdj .fdj_right .shipnum {
+        width: 510px;
+        margin: 5px 20px 5px 10px; }
+        #detail .detail_fdj .fdj_right .shipnum ul {
+          width: 510px;
+          height: 16px;
+          padding: 10px 0px;
+          border: 1px solid #dddddd;
+          border-width: 1px 0px 1px 0px; }
+          #detail .detail_fdj .fdj_right .shipnum ul .num {
+            color: #c40000;
+            margin-left: 4px;
+            font-weight: 700; }
+          #detail .detail_fdj .fdj_right .shipnum ul li {
+            float: left; }
+            #detail .detail_fdj .fdj_right .shipnum ul li div {
+              width: 169.2px;
+              height: 16px;
+              text-align: center; }
+      #detail .detail_fdj .fdj_right .shipcolor {
+        margin: 0 20px 24px 10px; }
+        #detail .detail_fdj .fdj_right .shipcolor .shipwrap {
+          padding: 10px 0; }
+          #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color {
+            padding: 5px 0 12px;
+            position: relative; }
+            #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .color {
+              padding-bottom: 6px;
+              overflow: hidden; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .color dd li {
+                line-height: 28px;
+                float: left;
+                position: relative;
+                margin: 0 4px 4px 0;
+                line-height: 20px;
+                vertical-align: middle;
+                padding: 1px;
+                border: 1px solid #dddddd; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .color dd li a {
+                  color: #666666;
+                  padding: 0 5px;
+                  width: auto !important;
+                  height: 38px;
+                  line-height: 38px; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .color dt {
+                text-align: left;
+                float: left;
+                width: 66px;
+                line-height: 38px;
+                color: #838383; }
+            #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .tc {
+              padding-bottom: 6px;
+              overflow: hidden; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .tc dt {
+                margin-top: 6px;
+                text-align: left;
+                float: left;
+                width: 66px;
+                line-height: 38px;
+                color: #838383; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .tc dd {
+                width: 420px;
+                float: left;
+                overflow: hidden;
+                margin-top: 6px; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .tc dd li {
+                  line-height: 28px;
+                  float: left;
+                  position: relative;
+                  margin: 0 4px 4px 0;
+                  vertical-align: middle;
+                  padding: 1px;
+                  border: 1px solid #dddddd; }
+                  #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .tc dd li a {
+                    color: #000;
+                    min-width: 10px;
+                    padding: 0 9px;
+                    text-align: center;
+                    width: auto !important; }
+            #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum {
+              padding-bottom: 6px;
+              overflow: hidden; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum dt {
+                margin-top: 6px;
+                text-align: left;
+                float: left;
+                width: 66px;
+                color: #838383; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum dd {
+                margin-top: 6px;
+                float: left;
+                width: 420px;
+                height: 35px; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum dd input {
+                  float: left;
+                  height: 26px;
+                  border: 1px solid #a7a6ac;
+                  width: 36px;
+                  padding: 3px 2px 0 3px;
+                  line-height: 26px;
+                  color: #666; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum dd .shang_xia {
+                  height: 35px;
+                  line-height: 31px;
+                  color: #878787;
+                  float: left;
+                  margin-left: 5px; }
+                  #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum dd .shang_xia .shang {
+                    margin-bottom: 3px; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .gwcnum dd .unit {
+                  height: 26px;
+                  padding: 3px 2px 0 10px;
+                  line-height: 26px;
+                  color: #666; }
+            #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq {
+              padding-bottom: 6px;
+              height: 160px; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dt {
+                margin-top: 6px;
+                text-align: left;
+                float: left;
+                width: 66px;
+                color: #838383; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dt span {
+                  background-color: #c40000;
+                  color: #fff;
+                  border-radius: 2px;
+                  font-weight: 400;
+                  margin: 0 2px;
+                  padding-left: 2px; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dt b {
+                  background-color: #600;
+                  text-decoration: none;
+                  border-radius: 2px;
+                  margin-left: 2px;
+                  padding: 0 2px; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dd {
+                margin-top: 6px;
+                float: left;
+                width: 420px;
+                height: 35px; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dd p {
+                  height: 28px;
+                  display: inline-block;
+                  padding: 0 12px 0 30px;
+                  line-height: 28px;
+                  color: #fff;
+                  font-size: 14px;
+                  background: #c40000 url(../adimg/huabei.png) no-repeat left center; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dd div {
+                  line-height: 16px;
+                  color: #666;
+                  padding: 3px 10px 3px 30px;
+                  background: url(../styleimg/atten.png) no-repeat left center; }
+                  #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dd div a {
+                    color: #35a; }
+                #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dd ul li {
+                  color: #CDCDCD;
+                  border: 1px dashed #CDCDCD;
+                  text-align: center;
+                  float: left;
+                  position: relative;
+                  margin: 0 4px 4px 0;
+                  line-height: 20px;
+                  vertical-align: middle;
+                  padding: 1px; }
+                  #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .huabfq dd ul li span {
+                    padding: 0px 9px; }
+            #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .btn {
+              clear: both;
+              padding: 10px 0 0 66px;
+              margin: 10px 0 0; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .btn #nowbuy {
+                box-sizing: content-box;
+                width: 178px;
+                background-color: #ffeded;
+                border: 1px solid #c40000;
+                color: #c40000;
+                font-family: 'Microsoft Yahei';
+                height: 38px;
+                line-height: 38px;
+                text-align: center;
+                font-size: 16px; }
+              #detail .detail_fdj .fdj_right .shipcolor .shipwrap .ship_color .btn #addgwc {
+                box-sizing: content-box;
+                width: 178px;
+                background-color: #c40000;
+                border: 1px solid #ffeded;
+                color: #ffeded;
+                font-family: 'Microsoft Yahei';
+                height: 38px;
+                line-height: 38px;
+                text-align: center;
+                font-size: 16px; }
+        #detail .detail_fdj .fdj_right .shipcolor .fw dt {
+          float: left;
+          text-align: left;
+          width: 66px;
+          line-height: 38px;
+          color: #838383; }
+        #detail .detail_fdj .fdj_right .shipcolor .fw dd {
+          width: 420px;
+          margin: 10px 0px 0px 0px;
+          float: right; }
+          #detail .detail_fdj .fdj_right .shipcolor .fw dd a {
+            color: #666;
+            padding: 0px 20px 5px 0px; }
+
+.detailbottom {
+  margin: 10px auto 0px;
+  width: 990px;
+  padding-right: 200px; }
+  .detailbottom img {
+    display: block; }
+
+/*# sourceMappingURL=details.css.map */

@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+em,i{
+    font-style: normal;
+}
+body {
+    background: #f5f5f5;
+}
+
+ul,li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+input{
+     border: none;
+}
+button{
+     border: none;
+}
+.clear{
+     clear:both ;
+    display: block;
+    content: "\20";
+   
+}
+//.clear{*zoom:1}
+//.clear:after,
+//.clear:before
+//{content:" ";display:table}
+
+
+.content{
+    width: 1230px;
+    min-height:30px ;
+    li{
+        float: left;
+    }
+    li:nth-of-type(1){
+        font-size: 18px;
+        line-height: 18px;
+        margin-left: 20px;
+        color: #000;
+    }
+    li:nth-of-type(2){
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 10px;
+        color: #000;
+    }
+    ul{
+        float: right;
+        li{
+            float: left;
+            a{
+                margin: 5px 10px;
+                display: block;
+                font-size: 14px;
+                height: 20px;
+                line-height: 20px;
+                color: black;
+            }
+            a:hover{
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}
+.content2{
+    width: 1230px;
+    min-height: 440px;
+    .left{
+        float: left;
+        width: 246px;
+        height: 440px;
+    }
+    .middle{
+        float: left;
+        width: 735px;
+        height: 440px;
+    }
+    .right{
+        float: left;
+        width: 248px;
+        height: 440px;
+    }
+}

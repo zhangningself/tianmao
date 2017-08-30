@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'nc_iconfont';
+	src: url("../font/font_1465353706_4784257.eot");
+	src: url("../font/font_1465353706_4784257.eot?#iefix") format('embedded-opentype'), url("../font/font_1465353706_4784257.woff") format('woff'), url("../font/font_1465353706_4784257.ttf") format('truetype'), url("../font/font_1465353706_4784257.svg#iconfont") format('svg')
+}
+.nc_iconfont {
+	font-family: "nc_iconfont";
+	color: #737383;
+	font-size: 16px;
+	font-style: normal
+}
